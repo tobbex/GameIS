@@ -163,6 +163,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GameIS.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alien.h" />
+    <ClInclude Include="Alienrow.h" />
+    <ClInclude Include="Alienswarm.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="GameIS.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
